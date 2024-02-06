@@ -11,7 +11,7 @@ public class Conexao {
      public Conexao() {
         caminho = "jdbc:postgresql://localhost:5432/Agenda";
         usuario = "postgres";
-        senha = "17042005";
+        senha = ""; // por segurança omiti a senha.
     }
 
     public String getUsuario() {
