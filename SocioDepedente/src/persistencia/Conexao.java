@@ -13,7 +13,7 @@ public class Conexao {
     public Conexao() {
         caminho = "jdbc:postgresql://localhost:5432/BDSocio ";
         usuario = "postgres";
-        senha = "17042005";
+        senha = ""; // por motivos de segurança omiti a senha.
     }
 
     public void conectar() {
